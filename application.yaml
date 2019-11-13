@@ -1,0 +1,169 @@
+---
+applications:
+  authentication:
+    db-config:
+      name: "ofbiz"
+      user: "grv"
+      password: "gurudutt"
+      url: "jdbc:mysql://localhost/bpw?autoReconnect=true&amp;useSSL=false&amp;characterEncoding=UTF-8"
+      host: "localhost"
+  ml-config:
+    clusterConfig:
+      product-category-config:
+        productCategories:
+        - categoryName: "TOPS"
+          optimalK: 8
+        - categoryName: "TOPS-B2B"
+          optimalK: 1
+        - categoryName: "BOTTOMS"
+          optimalK: 8
+        - categoryName: "BOTTOMS"
+          optimalK: 6
+        - categoryName: "GC-CAT"
+          optimalK: 2
+        - categoryName: "HATS"
+          optimalK: 8
+        - categoryName: "TOPS"
+          optimalK: 8
+        - categoryName: "TOPS-B2B"
+          optimalK: 1
+        - categoryName: "ACCESSORIES"
+          optimalK: 1
+        - categoryName: "B2B_DLR_FRTJG_DB"
+          optimalK: 2
+        - categoryName: "DL_BACK_PLATE"
+          optimalK: 2
+        - categoryName: "DL_BATHROOM_ACCESSOR"
+          optimalK: 2
+        - categoryName: "DL_BELL_PUSH"
+          optimalK: 2
+        - categoryName: "DL_COAT_HOOK"
+          optimalK: 3
+        - categoryName: "DL_FIXING_ACCESSORIE"
+          optimalK: 3
+        - categoryName: "DL_HINGE"
+          optimalK: 1
+        - categoryName: "DL_KNOB_HANDLES"
+          optimalK: 2
+        - categoryName: "DL_LEVER_HANDLE"
+          optimalK: 4
+        - categoryName: "ACCESSORIES"
+          optimalK: 1
+        - categoryName: "B2B_DLR_FRTJG_DB"
+          optimalK: 2
+        - categoryName: "DL_BACK_PLATE"
+          optimalK: 2
+        - categoryName: "DL_BATHROOM_ACCESSOR"
+          optimalK: 2
+        - categoryName: "DL_BELL_PUSH"
+          optimalK: 2
+        - categoryName: "DL_COAT_HOOK"
+          optimalK: 3
+        - categoryName: "DL_FIXING_ACCESSORIE"
+          optimalK: 3
+        - categoryName: "DL_HINGE"
+          optimalK: 1
+        - categoryName: "DL_KNOB_HANDLES"
+          optimalK: 2
+        - categoryName: "DL_LEVER_HANDLE"
+          optimalK: 4
+        - categoryName: "DL_LOCKS"
+          optimalK: 4
+        - categoryName: "DL_PICTOGRAM"
+          optimalK: 1
+        - categoryName: "DL_PULL_HANDLE"
+          optimalK: 4
+        - categoryName: "DL_PULL_HANDLE_ACCES"
+          optimalK: 7
+        - categoryName: "DL_ROLL_HOLDER"
+          optimalK: 3
+        - categoryName: "DL_SHELVES"
+          optimalK: 5
+        - categoryName: "DL_SOAP_DISPENSER"
+          optimalK: 4
+        - categoryName: "DL_WALL_MOUNT"
+          optimalK: 1
+        - categoryName: "DL_WASHROOM_ACCESSOR"
+          optimalK: 1
+        - categoryName: "DL_WINDOW_HANDLE"
+          optimalK: 6
+        - categoryName: "FM_C1_LH"
+          optimalK: 4
+        - categoryName: "FM_C1_PS"
+          optimalK: 5
+        - categoryName: "FM_C1_UM"
+          optimalK: 2
+        - categoryName: "FRTJG_VND"
+          optimalK: 9
+        - categoryName: "PR_ACCUR_NET"
+          optimalK: 7
+        - categoryName: "PR_AGSYS_NET"
+          optimalK: 8
+        - categoryName: "PR_BATON_NET"
+          optimalK: 4
+        - categoryName: "PR_BOMET_NET"
+          optimalK: 4
+        - categoryName: "PR_CCEIT_NET"
+          optimalK: 9
+        - categoryName: "PR_CESCY_NET"
+          optimalK: 9
+        - categoryName: "PR_DLINE_NET"
+          optimalK: 2
+        - categoryName: "PR_DLINE_SMP"
+          optimalK: 2
+        - categoryName: "PR_DLINE_STD"
+          optimalK: 6
+        - categoryName: "PR_FMANI_NET"
+          optimalK: 2
+        - categoryName: "PR_FMANI_SMP"
+          optimalK: 2
+        - categoryName: "PR_FMANI_STD"
+          optimalK: 2
+        - categoryName: "PR_FRTJG_NET"
+          optimalK: 2
+        - categoryName: "PR_FRTJG_STD"
+          optimalK: 2
+        - categoryName: "PR_GUHDO_NET"
+          optimalK: 3
+        - categoryName: "PR_HALLB_NET"
+          optimalK: 3
+        - categoryName: "PR_HALLB_SMP"
+          optimalK: 8
+        - categoryName: "PR_HALLB_STD"
+          optimalK: 4
+        - categoryName: "PR_NEMEF_STD"
+          optimalK: 2
+        - categoryName: "PR_NOHAJ_NET"
+          optimalK: 3
+        - categoryName: "PR_NOHAJ_STD"
+          optimalK: 3
+        - categoryName: "PR_PLNET_NET"
+          optimalK: 3
+        - categoryName: "PR_SAGSS_NET"
+          optimalK: 9
+        - categoryName: "PR_SAGSS_STD"
+          optimalK: 9
+        - categoryName: "PR_SLDIN_NET"
+          optimalK: 4
+        - categoryName: "PR_SMSWK_IA"
+          optimalK: 7
+        - categoryName: "PR_SMSWK_NET"
+          optimalK: 2
+        - categoryName: "PR_SMSWK_SMP"
+          optimalK: 9
+        - categoryName: "PR_SMSWK_STD"
+          optimalK: 2
+        - categoryName: "PR_XINIX_NET"
+          optimalK: 8
+        - categoryName: "RPT_SMSWK_MVPC_IA"
+          optimalK: 2
+        - categoryName: "VEN_LIT_Company"
+          optimalK: 3
+        - categoryName: "VEN_LIT_FMANI"
+          optimalK: 2
+        - categoryName: "VEN_LIT_HALLB"
+          optimalK: 2
+        - categoryName: "VEN_LIT_MWEED"
+          optimalK: 1
+        - categoryName: "VEN_LIT_SMSWK"
+          optimalK: 5

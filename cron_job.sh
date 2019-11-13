@@ -1,0 +1,1 @@
+*/5 * * * * cd /home/common/ProductRecommendations && ./gradlew  submitToSpark --stacktrace --console=plain >> /home/common/cron/cron.log 2>&1
